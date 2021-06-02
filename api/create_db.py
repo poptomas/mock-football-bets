@@ -1,16 +1,11 @@
-import mysql.connector
+from flask_mysqldb import MySQL, MySQLdb
+from flask import Flask, request, redirect
+app = Flask(__name__)
 
-database = mysql.connector.connect(
-    host="localhost",
-    user="root",
-    passwd="password"
-)
+app.config["MYSQL_HOST"] = "localhost"
+app.config["MYSQL_USER"] = "root"
+app.config["MYSQL_PASSWORD"] = ""
+app.config["MYSQL_DB"] = "database"
+#app.config["SQLALCHEMY_DATABASE_URI"] = "mysql://root:123_Nemam_zadne_heslo@127.0.0.1/users"
 
-my_cursor = database.cursor()
-
-my_cursor.execute("CREATE DATABASE users")
-
-my_cursor.execute("SHOW DATABASES")
-
-for db in my_cursor:
-    print(db)
+mysql = MySQL(app)
