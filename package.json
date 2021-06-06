@@ -14,7 +14,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "flask": "cd flask && python tryout.py",
+    "flask": "cd flask_api && python main.py",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"

@@ -4,7 +4,7 @@ import Login from "./Pages/Login"
 import Bets from "./Pages/Bets"
 import Profile from "./Pages/Profile"
 import {BrowserRouter as Router, Switch, Route, Link} from "react-router-dom";
-
+import './App.css';
 import React from "react";
 
 export default function App() {
