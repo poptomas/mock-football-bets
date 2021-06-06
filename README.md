@@ -18,4 +18,4 @@ You will also see any lint errors in the console.
 Runs flask backend on [http://localhost:5000](http://localhost:5000).
 
 ## Database
-XAMPP was utilized for MySQL database [http://localhost/phpmyadmin](http://localhost/phpmyadmin).
+XAMPP was utilized for MySQL database on [http://localhost/phpmyadmin](http://localhost/phpmyadmin).

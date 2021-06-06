@@ -1,5 +1,6 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
+.vscode
 flask_api/credentials.json
 src/Private/Credentials.js
 
