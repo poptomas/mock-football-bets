@@ -16,9 +16,12 @@ export const Register = () => {
     
     return(
         <>
+<<<<<<< HEAD
             <Form></Form>
             <Card></Card>
             <Form></Form>
+=======
+>>>>>>> api-flask-react
             <Card></Card>
             <Form></Form>
         </>

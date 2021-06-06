@@ -1,6 +1,11 @@
+<<<<<<< HEAD
 from flask import Flask, request, url_for
 from flask.templating import render_template
 from werkzeug.utils import redirect
+=======
+from flask import Flask, request
+from flask.templating import render_template
+>>>>>>> api-flask-react
 
 import smtplib, ssl
 from email.mime.text import MIMEText
@@ -24,9 +29,16 @@ with open("admin.json","r") as file:
     )
     cursor = connection.cursor()
 
+<<<<<<< HEAD
 
 # utilities
 def receive_hash_password(db_tuple):
+=======
+# utilities
+def receive_hash_password(db_tuple):
+    if is_empty(db_tuple):
+        return None
+>>>>>>> api-flask-react
     return "".join(db_tuple[0]).encode("utf-8")
 
 def is_empty(storage):
@@ -64,6 +76,7 @@ def send_email(receiver_username, receiver_email):
         server.login(sender_email, password)
         server.sendmail(sender_email, receiver_email, message.as_string())
 
+<<<<<<< HEAD
 
 
 
@@ -76,6 +89,8 @@ def send_email(receiver_username, receiver_email):
 
 
 
+=======
+>>>>>>> api-flask-react
 @app.route("/api/profile", methods = ["POST", "GET"])
 def profile():
     return render_template("profile.html")
@@ -87,6 +102,7 @@ def home():
         "content" : "Mock football bets web application"
     }
 
+<<<<<<< HEAD
 @app.route("/api/confirmation/<token>", methods = ["POST", "GET"])
 def confirmation(token):
     connection.commit()
@@ -106,10 +122,31 @@ def register():
         password = user_details.get("password").encode("utf-8")
         hashed_password = bcrypt.hashpw(password, bcrypt.gensalt())
         sql_query = "INSERT INTO `users` (username, email, password) VALUES (%s, %s, %s)"
+=======
+@app.route("/confirmation/<token>", methods = ["POST", "GET"])
+def confirmation(token):
+    connection.commit()
+    return {
+        "status" : "complete",
+        "message" : "Account created"
+    }
+
+@app.route("/api/register", methods = ["GET", "POST"])
+def register():
+    if request.method == "POST":
+        user_details = request.get_json()
+        username = user_details.get("username")
+        email = user_details.get("email")
+        password = user_details.get("password").encode("utf-8")
+        hashed_password = bcrypt.hashpw(password, bcrypt.gensalt())
+
+        sql_query = "INSERT INTO `users` (username, email, password) VALUES (%s, %s, %s)"        
+>>>>>>> api-flask-react
         values = (username, email, hashed_password)
         try:
             cursor.execute(sql_query, values)
         except mysql.connector.IntegrityError as err:
+<<<<<<< HEAD
             print("Error: {}".format(err))
         send_email(username, email)
         return {
@@ -135,22 +172,75 @@ def login():
         password = user_details.get("password").encode("utf-8")
 
         sql_query_get_hashed_pwd = """SELECT password FROM users WHERE username = %s"""
+=======
+            return {
+                "status" : "issue",
+                "message" : "Username/email already used"
+            }
+
+        send_email(username, email)
+        return {
+            "status" : "complete",
+            "message" : "Email sent, confirm your registration clicking the link in the email"
+        }
+    return {
+        "status" : "unchanged"
+    }
+
+import time
+
+@app.route("/api/login", methods = ["POST", "GET"])
+def login():
+    return{
+        "status" : time.strftime("%m/%d/%Y, %H:%M:%S", time.localtime()),
+    }
+    
+    """
+    if request.method == "POST":
+        user_details = request.get_json()
+        username = user_details.get("username")
+        password = None
+        if user_details == None:
+            password = 12345
+        else:
+            password = user_details.get("password").encode("utf-8")
+    """
+        #sql_query_get_hashed_pwd = """SELECT password FROM users WHERE username = %s"""
+    """
+>>>>>>> api-flask-react
         cursor.execute(sql_query_get_hashed_pwd, (username,)) #needs to be tuple
         users = cursor.fetchall()
 
         result = receive_hash_password(users)
+<<<<<<< HEAD
 
         if bcrypt.checkpw(password, result):
             print("Login successful")
+=======
+        if result == None or not(bcrypt.checkpw(password, result)):
+            print("invalid call")
+            return {
+                "status" : "invalid",
+                "message" : "Credentials are incorrect"
+            }
+        else:
+>>>>>>> api-flask-react
             return {
                 "username" : username,
                 "status" : "valid"
             }
+<<<<<<< HEAD
         return {
             "status" : "invalid"
         }
     else:
         return render_template("login.html")
+=======
+    """
+
+    
+
+>>>>>>> api-flask-react
 
 if __name__ == "__main__":
     app.run(debug = True)

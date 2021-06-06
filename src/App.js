@@ -3,7 +3,11 @@ import Register from "./Pages/Register"
 import Login from "./Pages/Login"
 import Bets from "./Pages/Bets"
 import Profile from "./Pages/Profile"
+<<<<<<< HEAD
 import {BrowserRouter as Router, Switch, Route, Link, withRouter} from "react-router-dom";
+=======
+import {BrowserRouter as Router, Switch, Route, Link} from "react-router-dom";
+>>>>>>> api-flask-react
 
 import React from "react";
 
@@ -54,6 +58,7 @@ export default function App() {
       </div>
     </Router>
   );
+<<<<<<< HEAD
 }
 
 function About() {
@@ -91,3 +96,6 @@ function NavBar(){
     )
 }
 
+=======
+}
+>>>>>>> api-flask-react
