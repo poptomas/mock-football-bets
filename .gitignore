@@ -1,8 +1,23 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 .vscode
-flask_api/credentials.json
-src/Private/Credentials.js
+
+# historic data and ML models
+flask_api/models
+flask_api/historic
+
+# accuracy score records
+flask_api/data_processing/results
+
+# json files of particular
+# user's auto setup/bet history
+flask_api/auto
+flask_api/bets
+
+# json file with upcoming matches is created while running
+flask_api/fixtures.json
+
+flask_api/data_processing/__pycache__
 
 # dependencies
 /node_modules
@@ -25,3 +40,4 @@ src/Private/Credentials.js
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
