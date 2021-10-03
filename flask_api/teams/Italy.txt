@@ -1,0 +1,37 @@
+Fiorentina
+Torino
+Verona,Hellas Verona
+Roma
+Parma
+Napoli
+Genoa
+Crotone
+Sassuolo
+Cagliari
+Juventus
+Sampdoria
+Milan,AC Milan
+Bologna
+Atalanta
+Lazio
+Benevento
+Inter,Internazionale
+Spezia
+Udinese
+Brescia
+Spal
+Lecce
+Chievo
+Empoli
+Frosinone
+Palermo
+Pescara
+Carpi
+Cesena
+Livorno
+Catania
+Siena
+Novara
+Bari
+Venezia
+Salernitana

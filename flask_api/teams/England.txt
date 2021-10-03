@@ -1,0 +1,38 @@
+Fulham
+Arsenal
+Crystal Palace
+Southampton
+Liverpool
+Leeds,Leeds United
+West Ham,West Ham United
+Newcastle,Newcastle United
+West Brom
+Leicester,Leicester City
+Tottenham,Tottenham Hotspur
+Everton
+Brighton,Brighton & Hove Albion
+Chelsea
+Sheffield United
+Wolves,Wolverhampton Wanderers
+Man United,Manchester United
+Burnley
+Aston Villa
+Man City,Manchester City
+Norwich,Norwich City
+Bournemouth
+Watford
+Cardiff
+Huddersfield
+Stoke
+Swansea
+Hull
+Sunderland
+Middlesbrough
+QPR
+Reading
+Wigan
+Blackburn
+Bolton
+Birmingham
+Blackpool
+Brentford

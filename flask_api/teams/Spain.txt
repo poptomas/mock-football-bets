@@ -1,0 +1,34 @@
+Eibar
+Celta,Celta Vigo,Celta de Vigo
+Granada,Granada CF
+Ath Bilbao,Athletic Club Bilbao,Athletic Club
+Cadiz,Cádiz
+Osasuna
+Alaves,Alavés,Deportivo Alavés
+Betis,Real Betis
+Valladolid
+Sociedad,Real Sociedad
+Villarreal
+Huesca
+Valencia
+Levante
+Getafe
+Real Madrid
+Elche
+Ath Madrid,Atlético Madrid
+Sevilla
+Barcelona,FC Barcelona
+Mallorca
+Leganes
+Espanol,Espanyol
+Girona
+Vallecano,Rayo Vallecano
+Las Palmas
+La Coruna
+Malaga
+Sp Gijon
+Almeria
+Cordoba
+Zaragoza
+Santander
+Hercules

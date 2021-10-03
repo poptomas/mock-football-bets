@@ -1,0 +1,10 @@
+flask
+mysql_connector
+bcrypt
+soccerapi
+sklearn
+bs4
+pandas
+joblib
+apscheduler
+selenium

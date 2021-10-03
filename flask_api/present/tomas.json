@@ -1,0 +1,95 @@
+{
+    "bets": [
+        {
+            "username": "tomas",
+            "balance": "9999982485.33",
+            "date": "2021-10-02",
+            "team": "Manchester United",
+            "home": "Manchester United",
+            "away": "Everton",
+            "nation": "England",
+            "odds": 1.47,
+            "cost": "120",
+            "potential_win": 176.4,
+            "mode": "human"
+        },
+        {
+            "username": "tomas",
+            "balance": "9999982365.33",
+            "date": "2021-10-02",
+            "team": "Chelsea",
+            "home": "Chelsea",
+            "away": "Southampton",
+            "nation": "England",
+            "odds": 1.28,
+            "cost": "100",
+            "potential_win": 128,
+            "mode": "human"
+        },
+        {
+            "username": "tomas",
+            "balance": "9999982265.33",
+            "date": "2021-09-27",
+            "team": "Brighton",
+            "home": "Crystal Palace",
+            "away": "Brighton",
+            "nation": "England",
+            "odds": 2.48,
+            "cost": "100",
+            "potential_win": 248,
+            "mode": "human"
+        },
+        {
+            "username": "tomas",
+            "balance": "9999982165.33",
+            "date": "2021-10-03",
+            "team": "Tottenham",
+            "home": "Tottenham",
+            "away": "Aston Villa",
+            "nation": "England",
+            "odds": 2.2,
+            "cost": "200",
+            "potential_win": 440,
+            "mode": "human"
+        },
+        {
+            "username": "tomas",
+            "balance": "9999981865.33",
+            "date": "2021-10-18",
+            "team": "Arsenal",
+            "home": "Arsenal",
+            "away": "Crystal Palace",
+            "nation": "England",
+            "odds": 1.45,
+            "cost": "100",
+            "potential_win": 145,
+            "mode": "human"
+        },
+        {
+            "username": "tomas",
+            "balance": "9999981765.33",
+            "date": "2021-10-17",
+            "team": "FC Augsburg",
+            "home": "FC Augsburg",
+            "away": "Arminia Bielefeld",
+            "nation": "Germany",
+            "odds": 2.4,
+            "cost": "100",
+            "potential_win": 240,
+            "mode": "human"
+        },
+        {
+            "username": "tomas",
+            "balance": "9999981665.33",
+            "date": "2021-10-02",
+            "team": "Chelsea",
+            "home": "Chelsea",
+            "away": "Southampton",
+            "nation": "England",
+            "odds": 1.35,
+            "cost": "100",
+            "potential_win": 135,
+            "mode": "human"
+        }
+    ]
+}

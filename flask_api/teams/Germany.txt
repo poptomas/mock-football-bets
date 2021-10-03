@@ -1,0 +1,30 @@
+Bayern Munich,Bayern München
+Schalke 04
+Ein Frankfurt,Eintracht Frankfurt
+Bielefeld,Arminia Bielefeld
+FC Koln,1. FC Köln,Köln
+Hoffenheim,TSG Hoffenheim
+Stuttgart,VfB Stuttgart
+Freiburg,SC Freiburg
+Union Berlin,1. FC Union Berlin
+Augsburg,FC Augsburg
+Werder Bremen
+Hertha,Hertha BSC
+Dortmund,Borussia Dortmund
+M'gladbach,Borussia Mönchengladbach,Borussia M'gladbach
+RB Leipzig
+Mainz,Mainz 05
+Wolfsburg,VfL Wolfsburg
+Leverkusen,Bayer Leverkusen
+Paderborn
+Fortuna Dusseldorf
+Nurnberg
+Hannover
+Hamburg
+Darmstadt
+Ingolstadt
+Braunschweig
+Greuther Furth,Greuther Fürth
+Kaiserslautern
+St Pauli
+VfL Bochum,Bochum

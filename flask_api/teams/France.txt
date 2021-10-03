@@ -1,0 +1,34 @@
+Monaco
+Nantes
+Lyon,Olympique Lyonnais
+Brest
+Troyes
+Paris SG,PSG
+Rennes
+Lens
+Bordeaux
+Clermont
+Nice
+Reims
+St Etienne,Saint-Étienne
+Lorient
+Strasbourg
+Angers,Angers SCO
+Metz
+Lille
+Montpellier
+Marseille,Olympique Marseille
+Dijon
+Nimes
+Toulouse
+Amiens
+Guingamp
+Caen
+Bastia
+Nancy
+Ajaccio GFCO
+Evian Thonon Gaillard
+Sochaux
+Valenciennes
+Ajaccio
+Auxerre
