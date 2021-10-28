@@ -2,6 +2,18 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 .vscode
 
+# create your own credentials.json file there like this:
+# {
+#    "host" : "127.0.0.1",
+#    "username" : "root",
+#    "password" : "",
+#    "database" : "mfb",
+#    "email" : "example@example.com",
+#    "email_password" : "example"
+#}
+#
+flask_api/credentials.json
+
 # historic data and ML models
 flask_api/models
 flask_api/historic
